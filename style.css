@@ -1,0 +1,49 @@
+.cv {
+    font-family: 'Grape Nuts', cursive
+}
+
+span{
+    color: #FCA40A;
+}
+.tx {
+    width: 50%;
+    margin: 40px;
+    
+}
+
+.pic{
+    width: 40%
+  
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato );
+    color: aliceblue;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.bg{
+    background-image: url( ./developer-portfolio-master/images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.Dream-Big{
+    background-image: url(./developer-portfolio-master/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.img1{
+    width: 100%;
+}
+.ttx{
+    width: 50%;
+    padding-left: 40px;
+    padding-right: 120px;
+}
