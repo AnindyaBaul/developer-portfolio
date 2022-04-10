@@ -16,26 +16,34 @@ span{
   
 }
 .link-button{
+    display: inline-block;
     text-decoration: none;
     background-image: linear-gradient(orange,tomato );
     color: aliceblue;
     font-weight: 700;
     padding: 10px 30px;
     border-radius: 15px;
+    box-shadow: 0 0 50px orangered;
+    margin-top: 20px;
+   
+  
 }
 
 section{
     display: flex;
     align-items: center;
     margin-bottom: 150px;
+    background-color: transparent;
 }
 .bg{
-    background-image: url( ./developer-portfolio-master/images/top-banner.png);
+    background-image: url();
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
 }
 
 .Dream-Big{
-    background-image: url(./developer-portfolio-master/images/dream-bg.png);
+    background-image: url();
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -46,4 +54,48 @@ section{
     width: 50%;
     padding-left: 40px;
     padding-right: 120px;
+}
+.color{
+   color:#FFA547; 
+}
+.Experiance-area{
+    display: flex;
+    background-image:url(./developer-portfolio-master/images/exp-bg.png);
+background-repeat: no-repeat;
+
+
+}
+.shadow {
+    box-shadow: 10px 10px 30px orangered;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 7px;
+    padding-right: 5px;
+}
+#border{
+
+    border-left: 7px solid;
+    border-image:linear-gradient(red,tomato);
+    border-image-slice: 1;
+}
+#border_R{
+    
+    border-left: 7px solid;
+    border-image:linear-gradient(blue, red);
+    border-image-slice: 1;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image:url(./developer-portfolio-master/Anindya/bg.JPG);
+}
+.img2{
+    border-radius: 50%;
+    width: 100%;
+    
+}
+
+div{
+    background-color: transparent;
 }
